@@ -10,7 +10,7 @@ import {
   View,
   Easing,
 } from 'react-native';
-
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 import PropTypes from 'prop-types';
 
 var TRACK_SIZE = 4;
@@ -141,17 +141,17 @@ export default class Slider extends PureComponent {
     /**
      * The style applied to the slider container.
      */
-    style: () => null,
+    style: ViewPropTypes.style,
 
     /**
      * The style applied to the track.
      */
-    trackStyle: () => null,
+    trackStyle: ViewPropTypes.style,
 
     /**
      * The style applied to the thumb.
      */
-    thumbStyle: () => null,
+    thumbStyle: ViewPropTypes.style,
 
     /**
      * Sets an custom component for the thumb.

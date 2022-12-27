@@ -1,7 +1,7 @@
 {
-  "name": "@mtourj/react-native-custom-slider",
+  "name": "react-native-custom-slider",
   "title": "React Native Custom Slider",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native Slider with Customizable Thumb",
   "main": "src/Slider.js",
   "files": [
@@ -28,11 +28,13 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": ">=16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+      "react": ">=16.8.1",
+         "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react": ">= 16.9.0",
-    "react-native": ">= 0.61.5"
+      "react": ">= 16.9.0",
+        "react-native": ">= 0.61.5",
+    "deprecated-react-native-prop-types": "2.3.0"
   }
 }
+
